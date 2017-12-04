@@ -11,6 +11,7 @@
 建议安装的时候先将其他源注释，采用官方源:`deb http://http.kali.org/kali kali-rolling main non-free contrib`
 
 启动MySQL:`service mysql start`
+* `apt-get update`
 * `apt-get install default-libmysqlclient-dev -y`
 * `apt-get install libldns-dev -y`
 * `service mysql start`
