@@ -1,0 +1,3 @@
+/usr/local/bin/PenloopScan
+/etc/PenloopScan/my.ini
+/etc/PenloopScan/dict.txt
