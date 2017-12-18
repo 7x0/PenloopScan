@@ -1,4 +1,4 @@
-# scanDnsToDB
+# PenloopScan
 
 ## 简介
 
