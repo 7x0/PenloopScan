@@ -17,6 +17,7 @@
 * `service mysql start`
 * `git clone https://github.com/KoonsTools/PenloopScan.git`
 * `cd PenloopScan`
+* `cmake .`
 * `make`
 * `sudo make install`
 
