@@ -1,7 +1,0 @@
-/home/payloads/CLionProjects/test/PenloopScan/CMakeFiles/install/strip.dir
-/home/payloads/CLionProjects/test/PenloopScan/CMakeFiles/edit_cache.dir
-/home/payloads/CLionProjects/test/PenloopScan/CMakeFiles/rebuild_cache.dir
-/home/payloads/CLionProjects/test/PenloopScan/CMakeFiles/PenloopScan.dir
-/home/payloads/CLionProjects/test/PenloopScan/CMakeFiles/list_install_components.dir
-/home/payloads/CLionProjects/test/PenloopScan/CMakeFiles/install/local.dir
-/home/payloads/CLionProjects/test/PenloopScan/CMakeFiles/install.dir

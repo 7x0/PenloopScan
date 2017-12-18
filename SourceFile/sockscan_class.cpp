@@ -8,7 +8,6 @@ void * sockscan_class::scan(void * sockscan_class1) {
         for (int i = 0; i < ports.size(); ++i) {
             sockscanThis->socket_scan = socket(AF_INET,SOCK_STREAM,0);
             struct sockaddr_in target;
-            // std::cout <<"trying Port ..   " << ports[i] << std::endl;
             target.sin_family =AF_INET;
             target.sin_addr.s_addr = inet_addr(global_jobs->IP.c_str());
             target.sin_port = htons(ports[i]);
@@ -17,15 +16,10 @@ void * sockscan_class::scan(void * sockscan_class1) {
             if(connect(sockscanThis->socket_scan,(struct sockaddr *)&target,sizeof(target)) == 0){
                 GlobalScanData[j].Port.push_back((int)ports[i]);
                 std::cout << global_jobs->IP <<":"<< ports[i] << " [Open]"<<std::endl;
-                //ports.pop_back();
             }
             close(sockscanThis->socket_scan);
-            //pthread_mutex_unlock(&sockscanThis->mutex);
         }
-        //pthread_mutex_lock(&sockscanThis->mutex);
         j++;
-        //GlobalScanData.erase(global_jobs);
-        //pthread_mutex_unlock(&sockscanThis->mutex);
     }
 
     /*

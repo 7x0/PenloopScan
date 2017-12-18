@@ -16,6 +16,7 @@ struct Options{
     std::string config_file;
     std::string DnsServer;
     bool rebuild;
+    int iter = 0;
 };
 struct GlobalSet{
     std::string mysql_host;
