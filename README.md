@@ -12,6 +12,7 @@
 
 启动MySQL:`service mysql start`
 * `apt-get update`
+* `apt-get install cmake -y`
 * `apt-get install default-libmysqlclient-dev -y`
 * `apt-get install libldns-dev -y`
 * `service mysql start`
