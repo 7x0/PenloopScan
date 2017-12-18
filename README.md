@@ -15,6 +15,7 @@
 * `apt-get install cmake -y`
 * `apt-get install default-libmysqlclient-dev -y`
 * `apt-get install libldns-dev -y`
+* `apt-get install libcurl-ocaml-dev -y`
 * `service mysql start`
 * `git clone https://github.com/KoonsTools/PenloopScan.git`
 * `cd PenloopScan`
